@@ -680,5 +680,12 @@ nav#footer p{
 	color: #ffffff;
 }
     
-    
+    /* hidden on default */
+div#popup { display: none; }
+
+/* use a media query to filter small devices */
+@media only screen and (min-device-width:900px) {
+    /* show the popup */
+    div#popup { display: block; }
+}
     
