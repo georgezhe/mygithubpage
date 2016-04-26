@@ -589,10 +589,11 @@ button.btn.tf-btn.btn-default {
 }
 .btn-1 svg {
   height: 90px;
+  width: 445px;
   padding-left:-80px;
   position: absolute;
   top: 0;
-  width: 82.5%;
+  /*width: 82.5%;*/
 }
 .btn-1 rect {
   fill: none;
