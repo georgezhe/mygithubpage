@@ -1120,7 +1120,7 @@ img {
 .img-responsive2 {
   display: block;
   padding-left: 15%;
-  max-width: 130%;
+  max-width: 100%;
   height: auto;
 }
 .img-rounded {

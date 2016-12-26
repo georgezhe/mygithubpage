@@ -403,7 +403,7 @@ ol.type li a.active { font-weight: 700; }
 	margin-bottom: 30px;
 }
 .portfolio-item .hover-bg{
-	height: 260px;
+	height: 247px;
 	overflow: hidden;
 	position: relative;
 }
@@ -589,10 +589,11 @@ button.btn.tf-btn.btn-default {
 }
 .btn-1 svg {
   height: 90px;
+  width: 445px;
   padding-left:-80px;
   position: absolute;
   top: 0;
-  width: 82.5%;
+  /*width: 82.5%;*/
 }
 .btn-1 rect {
   fill: none;
@@ -688,4 +689,12 @@ div#popup { display: none; }
     div#popup { display: block; }
 }
     
+    /* hidden on default */
+div#popup { display: none; }
+
+/* use a media query to filter small devices */
+@media only screen and (min-device-width:900px) {
+    /* show the popup */
+    div#popup { display: block; }
+}
     
